@@ -15,13 +15,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* background-image: url("https://media.istockphoto.com/photos/dark-blue-abstract-background-picture-id877787978?b=1&k=20&m=877787978&s=170667a&w=0&h=kvxvkxBm8VeFdbcbTTFS_MPhNyx2rqUEHpTLUC_vVxs="); */
-  background-position: center;
+  /* background-position: center; */
   /* background-size: cover; */
   /* background-color: rgb(42, 20, 63); */
-  /* background-color: rgb(3, 3, 58); */
+  background-color: rgb(3, 3, 58);
   /* background-image: linear-gradient(to right top, #051937 , #00334b , #004c50 , #30634b , #69764b); */
-  background-size: cover;
-  background-image: url("./images/BGImage.jpg");
+  /* background-size: cover; */
+  /* background-image: url("./images/BGImage.jpg"); */
 
 
 }
@@ -155,6 +155,24 @@ code {
   transform: scale(1, 1);
 }
 
+.Newform{
+  gap: 20px;
+  z-index: 10;
+  padding: 20px;
+  position: absolute;
+  top: 10%;
+  left: 36%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  height: auto;
+  /* border: 1px solid white; */
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px black;
+}
+
 .form {
   z-index: 10;
   padding: 20px;
@@ -190,6 +208,7 @@ code {
 .image {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .image img {
