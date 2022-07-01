@@ -1,6 +1,7 @@
 import React, { useState ,useEffect } from 'react'
 import axios from 'axios';
-
+import { Link } from 'react-router-dom';
+ 
 
 function EmployeeInfo({getID}) {
 
@@ -44,9 +45,9 @@ function EmployeeInfo({getID}) {
                         <i className="fab fa-skype fa-lg"></i>
                       </button>
                     </div>
-                    <button type="button" className="btn btn-primary btn-rounded btn-lg">
-                      Message now
-                    </button>
+                    <Link to='/' ><button type="button" className="btn btn-primary btn-rounded btn-lg">
+                      Go Back
+                    </button></Link>
                   </div>
                 </div>
 
